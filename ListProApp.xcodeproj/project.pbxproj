@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		C5ABB4142845425B00C06156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB4132845425B00C06156 /* AppDelegate.swift */; };
 		C5ABB4162845425B00C06156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB4152845425B00C06156 /* SceneDelegate.swift */; };
-		C5ABB4182845425B00C06156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB4172845425B00C06156 /* ViewController.swift */; };
-		C5ABB41B2845425B00C06156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB4192845425B00C06156 /* Main.storyboard */; };
 		C5ABB41D2845425C00C06156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB41C2845425C00C06156 /* Assets.xcassets */; };
 		C5ABB4202845425C00C06156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB41E2845425C00C06156 /* LaunchScreen.storyboard */; };
+		C5ABB42F28456BBC00C06156 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42828456BBC00C06156 /* HomePresenter.swift */; };
+		C5ABB43028456BBC00C06156 /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42928456BBC00C06156 /* HomeLocalDataManager.swift */; };
+		C5ABB43128456BBC00C06156 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42A28456BBC00C06156 /* HomeProtocols.swift */; };
+		C5ABB43228456BBC00C06156 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42B28456BBC00C06156 /* HomeInteractor.swift */; };
+		C5ABB43328456BBC00C06156 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42C28456BBC00C06156 /* HomeView.swift */; };
+		C5ABB43428456BBC00C06156 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42D28456BBC00C06156 /* HomeRemoteDataManager.swift */; };
+		C5ABB43528456BBC00C06156 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB42E28456BBC00C06156 /* HomeWireFrame.swift */; };
+		C5ABB45D284D219000C06156 /* LogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB456284D219000C06156 /* LogPresenter.swift */; };
+		C5ABB45E284D219000C06156 /* LogLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB457284D219000C06156 /* LogLocalDataManager.swift */; };
+		C5ABB45F284D219000C06156 /* LogProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB458284D219000C06156 /* LogProtocols.swift */; };
+		C5ABB460284D219000C06156 /* LogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB459284D219000C06156 /* LogInteractor.swift */; };
+		C5ABB461284D219000C06156 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB45A284D219000C06156 /* LogView.swift */; };
+		C5ABB462284D219000C06156 /* LogRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB45B284D219000C06156 /* LogRemoteDataManager.swift */; };
+		C5ABB463284D219000C06156 /* LogWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB45C284D219000C06156 /* LogWireFrame.swift */; };
+		C5ABB466284D21DF00C06156 /* LogView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB465284D21DF00C06156 /* LogView.storyboard */; };
+		C5ABB468284D80E900C06156 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB467284D80E900C06156 /* HomeView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5ABB4102845425B00C06156 /* ListProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABB4132845425B00C06156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5ABB4152845425B00C06156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5ABB4172845425B00C06156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5ABB41A2845425B00C06156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5ABB41C2845425C00C06156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5ABB41F2845425C00C06156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5ABB4212845425C00C06156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5ABB42828456BBC00C06156 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C5ABB42928456BBC00C06156 /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		C5ABB42A28456BBC00C06156 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C5ABB42B28456BBC00C06156 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C5ABB42C28456BBC00C06156 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C5ABB42D28456BBC00C06156 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		C5ABB42E28456BBC00C06156 /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		C5ABB456284D219000C06156 /* LogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPresenter.swift; sourceTree = "<group>"; };
+		C5ABB457284D219000C06156 /* LogLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLocalDataManager.swift; sourceTree = "<group>"; };
+		C5ABB458284D219000C06156 /* LogProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogProtocols.swift; sourceTree = "<group>"; };
+		C5ABB459284D219000C06156 /* LogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInteractor.swift; sourceTree = "<group>"; };
+		C5ABB45A284D219000C06156 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		C5ABB45B284D219000C06156 /* LogRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRemoteDataManager.swift; sourceTree = "<group>"; };
+		C5ABB45C284D219000C06156 /* LogWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWireFrame.swift; sourceTree = "<group>"; };
+		C5ABB465284D21DF00C06156 /* LogView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogView.storyboard; sourceTree = "<group>"; };
+		C5ABB467284D80E900C06156 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,45 @@
 		C5ABB4122845425B00C06156 /* ListProApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5ABB464284D219B00C06156 /* Log */,
+				C5ABB42728456BA500C06156 /* Home */,
 				C5ABB4132845425B00C06156 /* AppDelegate.swift */,
 				C5ABB4152845425B00C06156 /* SceneDelegate.swift */,
-				C5ABB4172845425B00C06156 /* ViewController.swift */,
-				C5ABB4192845425B00C06156 /* Main.storyboard */,
 				C5ABB41C2845425C00C06156 /* Assets.xcassets */,
 				C5ABB41E2845425C00C06156 /* LaunchScreen.storyboard */,
 				C5ABB4212845425C00C06156 /* Info.plist */,
 			);
 			path = ListProApp;
+			sourceTree = "<group>";
+		};
+		C5ABB42728456BA500C06156 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABB42C28456BBC00C06156 /* HomeView.swift */,
+				C5ABB467284D80E900C06156 /* HomeView.storyboard */,
+				C5ABB42B28456BBC00C06156 /* HomeInteractor.swift */,
+				C5ABB42828456BBC00C06156 /* HomePresenter.swift */,
+				C5ABB42928456BBC00C06156 /* HomeLocalDataManager.swift */,
+				C5ABB42A28456BBC00C06156 /* HomeProtocols.swift */,
+				C5ABB42D28456BBC00C06156 /* HomeRemoteDataManager.swift */,
+				C5ABB42E28456BBC00C06156 /* HomeWireFrame.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C5ABB464284D219B00C06156 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				C5ABB465284D21DF00C06156 /* LogView.storyboard */,
+				C5ABB45A284D219000C06156 /* LogView.swift */,
+				C5ABB459284D219000C06156 /* LogInteractor.swift */,
+				C5ABB456284D219000C06156 /* LogPresenter.swift */,
+				C5ABB457284D219000C06156 /* LogLocalDataManager.swift */,
+				C5ABB458284D219000C06156 /* LogProtocols.swift */,
+				C5ABB45B284D219000C06156 /* LogRemoteDataManager.swift */,
+				C5ABB45C284D219000C06156 /* LogWireFrame.swift */,
+			);
+			name = Log;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +185,8 @@
 			files = (
 				C5ABB4202845425C00C06156 /* LaunchScreen.storyboard in Resources */,
 				C5ABB41D2845425C00C06156 /* Assets.xcassets in Resources */,
-				C5ABB41B2845425B00C06156 /* Main.storyboard in Resources */,
+				C5ABB468284D80E900C06156 /* HomeView.storyboard in Resources */,
+				C5ABB466284D21DF00C06156 /* LogView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +197,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5ABB4182845425B00C06156 /* ViewController.swift in Sources */,
 				C5ABB4142845425B00C06156 /* AppDelegate.swift in Sources */,
+				C5ABB463284D219000C06156 /* LogWireFrame.swift in Sources */,
+				C5ABB43028456BBC00C06156 /* HomeLocalDataManager.swift in Sources */,
 				C5ABB4162845425B00C06156 /* SceneDelegate.swift in Sources */,
+				C5ABB45E284D219000C06156 /* LogLocalDataManager.swift in Sources */,
+				C5ABB45F284D219000C06156 /* LogProtocols.swift in Sources */,
+				C5ABB43128456BBC00C06156 /* HomeProtocols.swift in Sources */,
+				C5ABB43328456BBC00C06156 /* HomeView.swift in Sources */,
+				C5ABB43428456BBC00C06156 /* HomeRemoteDataManager.swift in Sources */,
+				C5ABB42F28456BBC00C06156 /* HomePresenter.swift in Sources */,
+				C5ABB45D284D219000C06156 /* LogPresenter.swift in Sources */,
+				C5ABB43228456BBC00C06156 /* HomeInteractor.swift in Sources */,
+				C5ABB462284D219000C06156 /* LogRemoteDataManager.swift in Sources */,
+				C5ABB460284D219000C06156 /* LogInteractor.swift in Sources */,
+				C5ABB43528456BBC00C06156 /* HomeWireFrame.swift in Sources */,
+				C5ABB461284D219000C06156 /* LogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C5ABB4192845425B00C06156 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5ABB41A2845425B00C06156 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5ABB41E2845425C00C06156 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +358,7 @@
 				INFOPLIST_FILE = ListProApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LogView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +386,7 @@
 				INFOPLIST_FILE = ListProApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LogView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +398,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
