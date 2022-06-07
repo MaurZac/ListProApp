@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 class LogView: UIViewController {
 
     // MARK: Properties

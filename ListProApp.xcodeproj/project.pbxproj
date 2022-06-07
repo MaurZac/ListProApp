@@ -27,9 +27,11 @@
 		C5ABB463284D219000C06156 /* LogWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABB45C284D219000C06156 /* LogWireFrame.swift */; };
 		C5ABB466284D21DF00C06156 /* LogView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB465284D21DF00C06156 /* LogView.storyboard */; };
 		C5ABB468284D80E900C06156 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB467284D80E900C06156 /* HomeView.storyboard */; };
+		C5ABB46A284E948100C06156 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5ABB469284E948100C06156 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25555A32A4FF06872C2DB6B5 /* Pods-ListProApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListProApp.release.xcconfig"; path = "Target Support Files/Pods-ListProApp/Pods-ListProApp.release.xcconfig"; sourceTree = "<group>"; };
 		C5ABB4102845425B00C06156 /* ListProApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListProApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABB4132845425B00C06156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5ABB4152845425B00C06156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		C5ABB45C284D219000C06156 /* LogWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWireFrame.swift; sourceTree = "<group>"; };
 		C5ABB465284D21DF00C06156 /* LogView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogView.storyboard; sourceTree = "<group>"; };
 		C5ABB467284D80E900C06156 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		C5ABB469284E948100C06156 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5457C0DF555E34CC6AF50CE /* Pods-ListProApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListProApp.debug.xcconfig"; path = "Target Support Files/Pods-ListProApp/Pods-ListProApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +69,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E8EB7BD4F4BB10D79E9BE98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5457C0DF555E34CC6AF50CE /* Pods-ListProApp.debug.xcconfig */,
+				25555A32A4FF06872C2DB6B5 /* Pods-ListProApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		954038803F444155992A39BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5ABB4072845425B00C06156 = {
 			isa = PBXGroup;
 			children = (
 				C5ABB4122845425B00C06156 /* ListProApp */,
 				C5ABB4112845425B00C06156 /* Products */,
+				5E8EB7BD4F4BB10D79E9BE98 /* Pods */,
+				954038803F444155992A39BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +113,7 @@
 				C5ABB41C2845425C00C06156 /* Assets.xcassets */,
 				C5ABB41E2845425C00C06156 /* LaunchScreen.storyboard */,
 				C5ABB4212845425C00C06156 /* Info.plist */,
+				C5ABB469284E948100C06156 /* GoogleService-Info.plist */,
 			);
 			path = ListProApp;
 			sourceTree = "<group>";
@@ -132,15 +155,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5ABB4242845425C00C06156 /* Build configuration list for PBXNativeTarget "ListProApp" */;
 			buildPhases = (
+				0DF6AFD910FDC17AD93F4397 /* [CP] Check Pods Manifest.lock */,
 				C5ABB40C2845425B00C06156 /* Sources */,
 				C5ABB40D2845425B00C06156 /* Frameworks */,
 				C5ABB40E2845425B00C06156 /* Resources */,
+				F16472045E317575CED044BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ListProApp;
+			packageProductDependencies = (
+			);
 			productName = ListProApp;
 			productReference = C5ABB4102845425B00C06156 /* ListProApp.app */;
 			productType = "com.apple.product-type.application";
@@ -169,6 +196,8 @@
 				Base,
 			);
 			mainGroup = C5ABB4072845425B00C06156;
+			packageReferences = (
+			);
 			productRefGroup = C5ABB4112845425B00C06156 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -185,12 +214,55 @@
 			files = (
 				C5ABB4202845425C00C06156 /* LaunchScreen.storyboard in Resources */,
 				C5ABB41D2845425C00C06156 /* Assets.xcassets in Resources */,
+				C5ABB46A284E948100C06156 /* GoogleService-Info.plist in Resources */,
 				C5ABB468284D80E900C06156 /* HomeView.storyboard in Resources */,
 				C5ABB466284D21DF00C06156 /* LogView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF6AFD910FDC17AD93F4397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListProApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16472045E317575CED044BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListProApp/Pods-ListProApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListProApp/Pods-ListProApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListProApp/Pods-ListProApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5ABB40C2845425B00C06156 /* Sources */ = {
@@ -348,6 +420,7 @@
 		};
 		C5ABB4252845425C00C06156 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5457C0DF555E34CC6AF50CE /* Pods-ListProApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -376,6 +449,7 @@
 		};
 		C5ABB4262845425C00C06156 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25555A32A4FF06872C2DB6B5 /* Pods-ListProApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
